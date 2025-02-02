@@ -1,4 +1,9 @@
 function myNumbers(...num) {
-    console.log(num)
+  console.log(num);
 }
-myNumbers(6, 5, 4, 7, 8, 9, 0)
+myNumbers(6, 5, 4, 7, 8, 9, 0);
+
+const myValues = (...values) => {
+  console.log(values);
+};
+myValues(6, 6);
