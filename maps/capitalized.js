@@ -11,8 +11,3 @@ const capitalized = names.map((name) => {
 });
 
 console.log(capitalized);
-
-const lowercase = names.map((nam) => {
-  return nam[0].toUpperCase() + nam.slice(1);
-});
-console.log(lowercase);
