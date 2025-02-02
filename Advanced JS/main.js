@@ -678,3 +678,6 @@ async function fetchJsonData() {
   }
 }
 // fetchJsonData();
+
+//Asynchronous JavaScript Course (Async/Await, Promises, Callbacks)
+//https://www.youtube.com/watch?v=ZYb_ZU8LNxs
