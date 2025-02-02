@@ -7,7 +7,7 @@ let myname = (name, school) => {
 let theschool = () => {
   console.log(`i am a student at eldoret university`);
 };
-// myname("james", theschool);
+myname("james", theschool);
 
 //promises
 
@@ -75,4 +75,4 @@ async function fetchData() {
     console.log(error);
   }
 }
-fetchData();
+// fetchData();
