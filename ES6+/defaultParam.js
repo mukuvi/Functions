@@ -10,7 +10,12 @@ But if you dont pass a value to your parameter food, it should print
 
 */
 const foodPay = (food = "something") => {
-    console.log(`I'm going to buy ${food} from the grocery shop`)
-}
+  console.log(`I'm going to buy ${food} from the grocery shop`);
+};
 // foodPay("milk")
-foodPay()
+foodPay();
+
+const fruits = (fruit = " a banana") => {
+  console.log(`i want to but ${fruit} for my supper`);
+};
+fruits("orange");
