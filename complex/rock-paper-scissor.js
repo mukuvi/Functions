@@ -5,4 +5,4 @@ function getHand() {
   return hands[randomIndex];
 }
 
-// console.log(getHand());
+console.log(getHand());
