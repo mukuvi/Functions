@@ -1,3 +1,14 @@
-const arrayz = [1, 3, 4, 6, 89, 9];
+const player = {
+  name: "Lebron James",
+  club: "LA Lakers",
+  address: {
+    city: "Los Angeles",
+  },
+};
 
-console.log(arrayz.indexOf(3));
+const {
+  name,
+  club,
+  address: { city },
+} = player;
+console.log(`${name} lives in ${city}  and plays for ${club}`);
