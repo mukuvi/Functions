@@ -1,6 +1,5 @@
-const nums = [1, 2, 3, 4, 5];
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"];
 
-const sqnums = nums.map((nu) => {
-  return nu * nu;
-});
-console.log(sqnums);
+const wrappedPokemon = pokemon.map((pokemon) => `<p>${pokemon}</p>`);
+
+console.log(wrappedPokemon);
