@@ -1,7 +1,3 @@
-let fruits = ["banana", "mangoo", "apple", "pineapple"];
+const arrayz = [1, 3, 4, 6, 89, 9];
 
-if (fruits.includes("mango")) {
-  console.log("Count me in i like mangoes");
-} else {
-  console.log("I dont want your fruits ");
-}
+console.log(arrayz.indexOf(3));
