@@ -14,8 +14,3 @@ const foodPay = (food = "something") => {
 };
 // foodPay("milk")
 foodPay();
-
-const fruits = (fruit = " a banana") => {
-  console.log(`i want to but ${fruit} for my supper`);
-};
-fruits("orange");
