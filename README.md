@@ -1,1 +1,1 @@
-> Personal JS review
+> JS review
