@@ -1,1 +1,1 @@
-> let JS reig n
+> let JS reign
