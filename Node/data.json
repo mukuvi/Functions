@@ -1,0 +1,8 @@
+{
+  "name": "james",
+  "age": "20",
+  "address": {
+    "street": "Biashara",
+    "city": "Kitui"
+  }
+}

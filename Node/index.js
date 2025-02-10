@@ -1,2 +1,2 @@
-require("./main");
-console.log("Hello world");
+const data = require("./data.json");
+console.log(data);
