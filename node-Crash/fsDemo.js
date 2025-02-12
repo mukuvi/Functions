@@ -1,10 +1,23 @@
-import { error } from "console";
-import fs from "fs";
+import fs from "fs/promises";
 
-//readFile - callback
-fs.readFile("./test.txt", "utf-8", (error, data) => {
-  if (error) throw error;
-  console.log(data);
-});
+//writeFile
 
-//readFileSync -synchronous
+const writeFile = async () => {
+  try {
+    await fs.writeFile("./test.txt", "node being writen");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+writeFile();
+//readFile
+const readFile = async () => {
+  try {
+    const data = await fs.readFile("./test.txt", "utf8");
+    console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+};
+readFile();
