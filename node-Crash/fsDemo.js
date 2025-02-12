@@ -11,6 +11,16 @@ const writeFile = async () => {
 };
 
 writeFile();
+//appendFile
+
+const appendFile = async () => {
+  try {
+    await fs.appendFile("./test.txt", "\n Appending new node modules");
+  } catch (error) {
+    console.log(error);
+  }
+};
+appendFile();
 //readFile
 const readFile = async () => {
   try {
