@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "dev": "node --watch server"
+    "dev": "node --watch --env-file=.env server"
   },
   "keywords": [],
   "author": "",
