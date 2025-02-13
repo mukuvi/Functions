@@ -17,4 +17,4 @@ let order = (time, work) => {
     }
   });
 };
-order(2000, () => console.log(`${stocks.fruits[0]}`));
+order(2000, () => console.log(`${stocks.fruits[0]} Was selected`));
