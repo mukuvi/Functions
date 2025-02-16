@@ -1,3 +1,4 @@
+//PROMISE
 let stocks = {
   fruits: ["strawberry", "grapes", "bananas", "mamgo"],
   liquid: ["water", "ice"],
@@ -6,15 +7,14 @@ let stocks = {
 };
 
 let is_shop_open = true;
-let order = (time, work) => {
-  return new Promise((resolve, reject) => {
-    if (is_shop_open) {
-      setTimeout(() => {
-        resolve(work());
-      }, time);
-    } else {
-      reject(console.log("The shop is closed"));
-    }
-  });
-};
-order(2000, () => console.log(`${stocks.fruits[0]} Was selected`));
+
+async function order() {
+  try {
+    await is_shop_open;
+  } catch (err) {
+    console.log("abc doesn't exist", err);
+  } finally {
+    console.log("JUST DO IT");
+  }
+}
+order();
