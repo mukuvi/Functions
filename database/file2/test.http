@@ -1,0 +1,9 @@
+### Get all destinations
+GET http://localhost:8000/api
+
+### Filter by continent
+GET http://localhost:8000/api/continent/
+
+### Filter by country
+GET http://localhost:8000/api/country/mauritius
+

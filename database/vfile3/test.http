@@ -1,0 +1,8 @@
+###
+GET http://localhost:8800/api?name=mombasa
+
+###
+GET http://localhost:8800/api/province/coast
+###
+
+GET http://localhost:8800/api?province=eastern

@@ -1,0 +1,11 @@
+### Basic API call without query parameters
+GET http://localhost:8000/api
+### Test 2: API call with query parameters
+GET http://localhost:8000/api?job=movie_star&isRich=true
+###
+GET http://localhost:8000/api?continent=africa
+### 
+GET http://localhost:8000/api/country/Mexico
+###
+GET http://localhost:8000/api/industry/Renewable Energy
+
