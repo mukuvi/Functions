@@ -1,0 +1,102 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #f9f9f9;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  border: 1px solid #1a1a1a;
+  padding-left: 10px;
+  margin: 2px;
+}
+.info-data {
+  display: flex;
+}
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-btn {
+  background-color: rgb(58, 214, 162);
+}
+.add-btn:hover {
+  background-color: rgb(15, 92, 66);
+}
+.delete-btn {
+  background-color: rgb(240, 39, 39);
+}
+.delete-btn:hover {
+  background-color: rgb(124, 7, 7);
+}
+.move-btn {
+  background-color: rgb(84, 23, 226);
+}
+.move-btn:hover {
+  background-color: rgb(2, 9, 116);
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(141, 136, 136);
+  border-radius: 5px;
+  color: #070606;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  /* background-color: #f9f9f9; */
+  margin-bottom: 10px;
+  border: 3px solid rgb(119, 115, 115);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-btn,
+.move-btn {
+  padding: 8px 12px;
+  padding: 1.4rem;
+  margin-left: 10px;
+}
